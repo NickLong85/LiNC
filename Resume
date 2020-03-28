@@ -12,26 +12,59 @@
   </style>
   <h1 class="contact">Nicholas C. Long<br>3222 NW 54th ST Apt B24<br>Seattle, WA 98107<br>614-325-2406<br><a href="logan.nichols@gmail.com">logan.nichols@gmail.com</a></h1>
     <h2 class="paid">Occupations</h2>
-        <ul>
+        <ul class="jobs">
             <li class="fud">Restaurants
             <li class="airWaves">Radio
             <li class="liluns">Teaching
             <li class="growem">Farming
         </ul>
 	<h2 class="unPaid">Volunteering</h2>
-	    <ul>
+	    <ul class="volt">
 	        <li class="artWork">Pan-Eros
 	        <li class="olymps">Special Olympics
 	    </ul>
 	<h2 class="tellem">References</h2>
-	    <ul>
+	    <ul class="refs">
 	        <li class="Sophia">Sophia Iannicelli
 	        <li class="Mike">Mike Thompson
 	        <li class="chefs">Andre Decker/Colleen Carrol
 	    </ul>
 	<h2 class="learnt">Education</h2>
-	    <ul>
+	    <ul class="knows">
 	        <li class="learn">Ohio State
+	        <li class="cud">Khan Academy
 	    </ul>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	 <script>
+	     $(".jobs").hide();
+	        $(".paid").on("click", function(){
+	            $(".jobs").show();
+	        });
+	        $(".paid").on("dblclick", function(){
+	            $(".jobs").hide();
+	        });
+	     $(".volt").hide();
+	        $(".unPaid").on("click", function(){
+	            $(".volt").show();
+	        });
+	        $(".unPaid").on("dblclick", function(){
+	            $(".volt").hide();
+	        });
+	     $(".refs").hide();
+	        $(".tellem").on("click", function(){
+	            $(".refs").show();
+	        });
+	        $(".tellem").on("dblclick", function(){
+	            $(".refs").hide();
+	        });
+	     $(".knows").hide();
+	        $(".learnt").on("click", function(){
+	            $(".knows").show();
+	        });
+	        $(".learnt").on("dblclick", function(){
+	            $(".knows").hide();
+	        });
+	     
+	 </script>
   </body>
 </html>
