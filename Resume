@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ResumeMaster</title>
+  </head>
+  <body>
+  <style>
+      .contact {
+          text-align: right;
+      }
+  </style>
+  <h1 class="contact">Nicholas C. Long<br>3222 NW 54th ST Apt B24<br>Seattle, WA 98107<br>614-325-2406<br><a href="logan.nichols@gmail.com">logan.nichols@gmail.com</a></h1>
+    <h2 class="paid">Occupations</h2>
+        <ul>
+            <li class="fud">Restaurants
+            <li class="airWaves">Radio
+            <li class="liluns">Teaching
+            <li class="growem">Farming
+        </ul>
+	<h2 class="unPaid">Volunteering</h2>
+	    <ul>
+	        <li class="artWork">Pan-Eros
+	        <li class="olymps">Special Olympics
+	    </ul>
+	<h2 class="tellem">References</h2>
+	    <ul>
+	        <li class="Sophia">Sophia Iannicelli
+	        <li class="Mike">Mike Thompson
+	        <li class="chefs">Andre Decker/Colleen Carrol
+	    </ul>
+	<h2 class="learnt">Education</h2>
+	    <ul>
+	        <li class="learn">Ohio State
+	    </ul>
+  </body>
+</html>
