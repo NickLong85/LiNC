@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+   <html>
+    <head>
+       <meta charset="utf-8">
+        <title>Dispatch 1</title>
+    </head>
+    <body>
+    <style>
+        body {
+            background-color: greenyellow;
+        }
+        .form {
+            text-align: right;
+            font-style: italic;
+            font-family: sans-serif;
+        }
+        h1 {
+            text-align: center;
+            font-style: italic;
+            font-family: sans-serif;
+        }
+        p {
+            font-style: italic;
+            font-family: sans-serif;
+            font-size: 1.5em;
+        }
+    </style>
+    <h2 class="form">Pvt. 2nd Class Long<br>Seattle, WA<br>late March</h2>
+    <h1>Notes from the Fox Holes</h1>
+    <p class="page1">Hello Dearest<br><br>I hope these days find you safe and healthy. I understand it may be hard right now to hold on to sanity,<br>
+    but I hope you are doing your best to hang on to whatever shreds of mind you have left.<br><br>These are interesting days for us here on the front lines<br>
+    they shuttered the mess halls long ago<br>We've been having to ration the food we were able to squirrel away before the barracks were deemed<br>
+    no longer fit for occupancy.<br>As a result, they have forced us all into individual lodging with ample distance between each party<br><br>
+    I pray the tide of this war turns swiftly, I am no longer certain I have the stomach to face the looming crisis.</p>
+    <p class="page2">An eerie calm rests upon us all here exposed while sheltered as we find ourselves<br>Just yesterday morn I awoke to find all the birds had forgotten<br>
+    they were supposed to herald the dawn, it made for a difficult rousing of one's bones.<br><br>It seems there has been a brief truce for I cannot 
+    recall the last time we engaged in open warfare.<br>I hope it lasts longer than the previous battle, my bones are weary of fighting.<br>
+    I regret I must cut this missive short, the rationing has been extended to paper<br>and this one my have to adapt its use before more supply arrives<br><br>
+    All my Love<br>Nick Long<br>Pvt. 2nd Class</p>
+    <button class="pageturn">Turn page</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        $(".page2").hide();
+        $(".pageturn").on("click", function(){
+            $(".page1").hide();
+            $(".page2").show();
+        });
+        $(".pageturn").on("dblclick", function(){
+            $(".page2").hide();
+            $(".page1").show();
+        });
+    </script>
