@@ -33,7 +33,7 @@
 	}
 
 		</style>
-		<h1 id="contact">Nicholas C. Long<br>3222 NW 54th ST Apt B24<br>Seattle, WA 98107<br>614-325-2406<br><a href="mailto:logan.nichols@gmail.com">logan.nichols@gmail.com</a></h1>
+		<h1 id="contact">Nicholas C. Long<br>Seattle, WA 98107<br>614-325-2406<br><a href="mailto:logan.nichols@gmail.com">logan.nichols@gmail.com</a></h1>
 		<h2 class="collapsible">Professional Experience</h2>
 		<div class="content">
 			<ul id="jobs">
@@ -45,16 +45,17 @@
                         <li>Analyzing and Prioritizing on the basis of complexity in real time</li>
 					</ul>
 				</li>
+				<li id="liluns">Teaching<br>
+					<ul id="teach">
+						<li>Assisting in creating an environment of learning for 2-4 year olds in a Montessori setting</li>
+						<li>Training adults via phone how to manage and maintain their new e-commerce sites</li>
+					</ul>	
+				</li>
 				<li id="airWaves">Radio<br>
 					<ul id="proder">
 						<li>Production Assistant for local call-in talk show on NPR affliate in Columbus Ohio</li>
 						<li>Freelance Producer for NPR affliate in Dayton Ohio</li>
 					</ul>
-				</li>
-				<li id="liluns">Teaching<br>
-					<ul id="teach">
-						<li>Assisting in creating an environment of learning for 2-4 year olds in a Montessori setting</li>
-					</ul>	
 				</li>
 				<li id="growem">Farming<br>
 					<ul id="vegs">
@@ -88,14 +89,14 @@
 		<div class="content">
 			<ul id="refs">
 				<li id="refsSophia">Sophia Iannicelli<br><p id="frankie">Director, <a href="http//:www.pan-eros.org">Pan-Eros Foundation</a>, <a href="mailto:director@seattleerotic.org">director@seattleerotic.org</a></p></li>
-				<li id="refsMike">Mike Thompson<br><p id="toms">News Director, <a href="https//:www.wosu.org">WOSU Public Media</a>, <a href="mailto:mike.thompson@wosu.org">mike.thompson@wosu.org</a></p></li>
-				<li id="refsChefs">Andre Decker/Colleen Carrol<br><p id="chiefs">Andre is the Head Chef for Daniel's Broiler Downtown. <a href="mailto:adecker@schwartzbros.com">adecker@schwartzbros.com</a><br>Colleen is the Head Chef for Daniel's Broiler Leschi. <a href="mailto:ccarrol@schwartzbros.com">ccarrol@schwartzbros.com</a></p></li>
+				<li id="refsRobert">Robert Sisk<br><p id="bobs">Director of Fulfillment, <a href="https://primellc.wordpress.com/">Prime LLC</a>, <a href="mailto:robert@websitesupportsolution.com">robert@websitesupportsolution.com</a></p></li>
+				<li id="refsLlama">Garret Riley<br><p id="Llama">Owner/Operator, <a href="https://www.spittinllama.com/">Spittin Llama Studios</a>, <a href="mailto:garrett@spittinllama.com">garrett@spittinllama.com</a></p></li>
 			</ul>
 		</div>
 		<h2 class="collapsible">Education</h2>
 		<div class="content">
 			<ul id="knows">
-				<li id="learn">Ohio State<br><p id="deg">In December of 2007, I graduated with a B.A. in English with a minor in theatre</p></li>
+				<li id="learn">Ohio State<br><p id="deg">In December of 2007, I graduated with a B.A. in English with a minor in theatre and journalism</p></li>
 				<li id="cud">Khan Academy<br><p id="KHAN">Online Computer Programming course covering the basics of HTML, CSS, Java, and SQL</p></li>
 			</ul>
 		</div>
